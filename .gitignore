@@ -1,0 +1,22 @@
+# 账号凭据 —— 等价于账号本身，绝不进仓库
+run/
+auths/
+*.json.key
+auths-*.json
+
+# 运行时数据
+data/
+server.log
+*.log
+state.json
+
+# 真实配置（含自己的 api_key）
+config.json
+
+# 二进制
+wb2api
+wb2api-src/
+
+# 系统垃圾
+__pycache__/
+.DS_Store
